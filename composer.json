@@ -1,0 +1,21 @@
+{
+    "name": "egeneralov/translate-api-yandex",
+    "description": "Translate Yandex Cloud API V2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Generalov\\TranslateApiYandex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugen Generalov"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "nesbot/carbon": "^2.72"
+    }
+}
